@@ -1,7 +1,7 @@
 {
   "name": "luxestate",
   "version": "1.0.0",
-  "description": "Website Template.",
+  "description": "Website Template Using Tailwind CSS.",
   "main": "index.js",
   "scripts": {
     "tailwind:watch": "npx tailwindcss -i ./src/style.css -o ./public/css/style.css --watch"
