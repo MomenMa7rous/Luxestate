@@ -1,0 +1,14 @@
+{
+  "name": "luxestate",
+  "version": "1.0.0",
+  "description": "Website Template.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:watch": "npx tailwindcss -i ./src/style.css -o ./public/css/style.css --watch"
+  },
+  "author": "Momen Mahrous",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
