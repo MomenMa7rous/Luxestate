@@ -10,11 +10,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Lexustate</title>
+    <title>Luxestate</title>
   </head>
   <body class="font-main">
     <!-- Header -->
-    <header id="header">
+    <header id="header" class="sticky top-0 left-0 z-50 bg-white">
       <div class="container flex justify-between items-center gap-4 py-5">
         <h1 class="text-2xl text-primary font-semibold"><a href="#">luxestate</a></h1>
         <button id="mobile-nav-btn" class="text-primary text-2xl lg:hidden">
@@ -22,35 +22,60 @@
         </button>
         <nav id="mobile-nav" class="lg:hidden pt-2 absolute top-[72px] left-0 min-h-[calc(100vh-72px)] w-full bg-white border-t-2 overflow-auto transition-all -translate-x-full">
           <ul id="mobile-nav-ul" class="text-center mb-7">
-            <li><a href="#" class="text-primary hover:text-secondary p-3 block text-xl">Home</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary p-3 block text-xl">About</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary p-3 block text-xl">Apartments</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary p-3 block text-xl">How it works</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary p-3 block text-xl">Agents</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary p-3 block text-xl">Contact us</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Home</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">About</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Apartments</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">How it works</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Agents</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Contact us</a></li>
           </ul>
           <div id="mobile-quick-actions" class="flex flex-col text-center">
             <a href="#" class="text-primary hover:text-secondary text-xl block p-3">Join Us</a>
-            <a href="#" class="text-primary bg-secondary border-2 rounded border-secondary transition-all py-2 px-5 mx-5 hover:bg-transparent font-medium">Get Started</a>
+            <a href="#" class="text-primary bg-secondary-200 border-2 rounded border-secondary-200 transition-all py-2 px-5 mx-5 hover:bg-transparent font-medium">Get Started</a>
           </div>
         </nav>
         <nav class="hidden lg:flex">
           <ul class="flex gap-3 items-center text-sm">
-            <li><a href="#" class="text-primary hover:text-secondary">Home</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary">About</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary">Apartments</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary">How it works</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary">Agents</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary">Contact us</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200">Home</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200">About</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200">Apartments</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200">How it works</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200">Agents</a></li>
+            <li><a href="#" class="text-primary hover:text-secondary-200">Contact us</a></li>
           </ul>
         </nav>
         <div id="quick-actions" class="hidden lg:flex gap-3 items-center text-sm">
-          <a href="#" class="text-primary hover:text-secondary">Join Us</a>
-          <a href="#" class="text-primary bg-secondary border-2 rounded border-secondary transition-all py-2 px-5 hover:bg-transparent font-medium">Get Started</a>
+          <a href="#" class="text-primary hover:text-secondary-200">Join Us</a>
+          <a href="#" class="text-primary bg-secondary-200 border-2 rounded border-secondary-200 transition-all py-2 px-5 hover:bg-transparent font-medium">Get Started</a>
         </div>
       </div>
     </header>
     <!-- End Header -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container lg:grid grid-cols-3 items-center relative">
+        <div id="text" class="py-9 lg:col-start-1 lg:col-end-3 lg:row-start-1 z-10">
+          <h1 class="text-primary text-center text-4xl leading-[1.3!important] sm:text-6xl lg:text-start font-semibold mb-8">
+            Find Your New<br>Modern Apartment
+          </h1>
+          <div class="flex justify-center items-stretch shadow-xl overflow-hidden rounded lg:max-w-lg relative">
+            <input type="text" placeholder="Search Location" class="p-3 sm:p-6 bg-white outline-none border-none flex-grow sm:pl-12">
+            <i class="fa-solid fa-magnifying-glass hidden sm:block absolute top-[50%] left-4 text-slate-400 -translate-y-1/2"></i>
+            <button type="submit" class="bg-secondary-200 transition-all hover:bg-secondary-100 text-primary font-semibold px-3 sm:px-6">Search</button>
+          </div>
+          <a href="#" class="gap-2 text-slate-400 text-xs items-center -rotate-90 absolute bottom-11 left-0 -ml-4 -z-10 hidden xl:flex"><i class="fa-solid fa-arrow-left-long"></i>Scroll Down</a>
+        </div>
+        <div id="img" class="overflow-hidden rounded lg:rounded-none lg:col-start-2 lg:col-end-4 lg:row-start-1 relative">
+          <img src="./imgs/hero.jpg" class="w-full">
+          <div id="img-text" class="bg-secondary-200 text-primary font-semibold p-2 flex flex-col text-center justify-between gap-2 align-center sm:flex-row lg:absolute lg:bottom-0 lg:right-0 lg:px-8 lg:py-4 lg:gap-8">
+            <p class="flex gap-3 mx-auto items-center"><i class="fa-solid fa-phone text-white text-xl"></i>(000) 123-4567</p>
+            <p class="flex gap-3 mx-auto items-center"><i class="fa-solid fa-location-dot text-white text-xl"></i>Melbourne, Australia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
 
     <script src="./js/main.js"></script>
   </body>
