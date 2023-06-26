@@ -639,6 +639,10 @@ video {
   margin-left: -1rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -741,6 +745,10 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -797,6 +805,10 @@ video {
   border-width: 2px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-t-2 {
   border-top-width: 2px;
 }
@@ -808,6 +820,16 @@ video {
 .border-secondary-200 {
   --tw-border-opacity: 1;
   border-color: rgb(255 204 1 / var(--tw-border-opacity));
+}
+
+.border-slate-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 55 61 / var(--tw-bg-opacity));
 }
 
 .bg-secondary-200 {
@@ -856,6 +878,11 @@ video {
   padding-right: 2rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -881,8 +908,20 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
 .pl-14 {
   padding-left: 3.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -904,6 +943,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -951,6 +995,10 @@ video {
   line-height: 1.3 !important;
 }
 
+.leading-\[1\.3\] {
+  line-height: 1.3;
+}
+
 .leading-\[2\.3\] {
   line-height: 2.3;
 }
@@ -967,6 +1015,11 @@ video {
 .text-secondary-200 {
   --tw-text-opacity: 1;
   color: rgb(255 204 1 / var(--tw-text-opacity));
+}
+
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .text-slate-400 {
@@ -1064,6 +1117,14 @@ section:not(#hero):nth-child(even) {
     flex-direction: row;
   }
 
+  .sm\:border-none {
+    border-style: none;
+  }
+
+  .sm\:p-0 {
+    padding: 0px;
+  }
+
   .sm\:p-6 {
     padding: 1.5rem;
   }
@@ -1075,6 +1136,10 @@ section:not(#hero):nth-child(even) {
 
   .sm\:pl-12 {
     padding-left: 3rem;
+  }
+
+  .sm\:text-start {
+    text-align: start;
   }
 
   .sm\:text-6xl {
@@ -1089,8 +1154,20 @@ section:not(#hero):nth-child(even) {
     margin-right: 0px;
   }
 
+  .md\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:p-5 {
@@ -1161,6 +1238,10 @@ section:not(#hero):nth-child(even) {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
