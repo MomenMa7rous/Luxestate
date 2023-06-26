@@ -554,6 +554,15 @@ video {
   }
 }
 
+.special-heading {
+  padding-bottom: 3rem;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.3;
+  --tw-text-opacity: 1;
+  color: rgb(31 55 61 / var(--tw-text-opacity));
+}
+
 .absolute {
   position: absolute;
 }
@@ -632,6 +641,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -666,6 +679,10 @@ video {
 .-rotate-90 {
   --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -704,6 +721,10 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .overflow-auto {
   overflow: auto;
 }
@@ -738,9 +759,18 @@ video {
   background-color: rgb(255 204 1 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-2 {
@@ -821,6 +851,10 @@ video {
   font-weight: 600;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .leading-\[1\.3\!important\] {
   line-height: 1.3 !important;
 }
@@ -828,6 +862,11 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(31 55 61 / var(--tw-text-opacity));
+}
+
+.text-secondary-200 {
+  --tw-text-opacity: 1;
+  color: rgb(255 204 1 / var(--tw-text-opacity));
 }
 
 .text-slate-400 {
@@ -838,6 +877,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-zinc-500 {
+  --tw-text-opacity: 1;
+  color: rgb(113 113 122 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
@@ -855,6 +899,11 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .hover\:bg-secondary-100:hover {
@@ -946,6 +995,10 @@ video {
 
   .lg\:max-w-lg {
     max-width: 32rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:gap-8 {

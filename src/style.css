@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .section-padding {
+    @apply py-24
+  }
+}
+
+@layer components {
+  .special-heading {
+    @apply pb-12 text-[40px] text-primary font-semibold leading-[1.3]
+  }
+}
