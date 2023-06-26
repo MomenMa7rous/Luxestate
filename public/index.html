@@ -9,10 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./imgs/favicon.png">
     <link rel="stylesheet" href="./css/style.css">
     <title>Luxestate</title>
   </head>
-  <body class="font-main">
+  <body class="font-main overflow-x-hidden">
     <!-- Header -->
     <header id="header" class="sticky top-0 left-0 z-50 bg-white">
       <div id="header-border" class="transition-all absolute bottom-0 left-0 w-0 h-[2px] bg-primary"></div>
@@ -28,7 +32,7 @@
             <li><a href="#apartments" class="text-primary hover:text-secondary-200 p-3 block text-xl">Apartments</a></li>
             <li><a href="#how-it-works" class="text-primary hover:text-secondary-200 p-3 block text-xl">How it works</a></li>
             <li><a href="#agents" class="text-primary hover:text-secondary-200 p-3 block text-xl">Agents</a></li>
-            <li><a href="#services" class="text-primary hover:text-secondary-200 p-3 block text-xl">Contact us</a></li>
+            <li><a href="#services" class="text-primary hover:text-secondary-200 p-3 block text-xl">Services</a></li>
           </ul>
           <div id="mobile-quick-actions" class="flex flex-col text-center">
             <a href="#how-it-works" class="text-primary hover:text-secondary text-xl block p-3">Join Us</a>
@@ -57,19 +61,19 @@
     <section id="hero">
       <div class="container lg:grid grid-cols-3 items-center relative">
         <div id="text" class="py-9 lg:col-start-1 lg:col-end-3 lg:row-start-1 z-10">
-          <h1 class="text-primary text-center text-4xl leading-[1.3!important] sm:text-6xl lg:text-start font-semibold mb-8">
+          <h1 class="wow fadeInLeft text-primary text-center text-4xl leading-[1.3!important] sm:text-6xl lg:text-start font-semibold mb-8">
             Find Your New<br>Modern Apartment
           </h1>
-          <div class="flex justify-center items-stretch shadow-xl overflow-hidden rounded lg:max-w-lg relative">
+          <div class="wow fadeInLeft flex justify-center items-stretch shadow-xl overflow-hidden rounded lg:max-w-lg relative" data-wow-delay=".1s">
             <input type="text" placeholder="Search Location" class="p-3 sm:p-6 bg-white outline-none border-none flex-grow sm:pl-12">
             <i class="fa-solid fa-magnifying-glass hidden sm:block absolute top-[50%] left-4 text-slate-400 -translate-y-1/2"></i>
             <button type="submit" class="bg-secondary-200 transition-all hover:bg-secondary-100 text-primary font-semibold px-3 sm:px-6">Search</button>
           </div>
-          <a href="#" class="gap-2 text-slate-400 text-xs items-center -rotate-90 absolute bottom-11 left-0 -ml-4 -z-10 hidden xl:flex"><i class="fa-solid fa-arrow-left-long"></i>Scroll Down</a>
+          <a href="#about" class="gap-2 text-slate-400 text-xs items-center -rotate-90 absolute bottom-11 left-0 -ml-4 -z-10 hidden xl:flex"><i class="fa-solid fa-arrow-left-long"></i>Scroll Down</a>
         </div>
-        <div id="img" class="overflow-hidden rounded lg:rounded-none lg:col-start-2 lg:col-end-4 lg:row-start-1 relative">
+        <div id="img" class="wow fadeInRight overflow-hidden rounded lg:rounded-none lg:col-start-2 lg:col-end-4 lg:row-start-1 relative">
           <img src="./imgs/hero.jpg" class="w-full">
-          <div id="img-text" class="bg-secondary-200 text-primary font-semibold p-2 flex flex-col text-center justify-between gap-2 align-center sm:flex-row lg:absolute lg:bottom-0 lg:right-0 lg:px-8 lg:py-4 lg:gap-8">
+          <div id="img-text" class="bg-secondary-200 text-primary text-sm font-semibold p-2 flex flex-col text-center justify-between gap-2 align-center sm:flex-row lg:absolute lg:bottom-0 lg:right-0 lg:px-8 lg:py-4 lg:gap-8">
             <p class="flex gap-3 mx-auto items-center"><i class="fa-solid fa-phone text-white text-xl"></i>(000) 123-4567</p>
             <p class="flex gap-3 mx-auto items-center"><i class="fa-solid fa-location-dot text-white text-xl"></i>Melbourne, Australia</p>
           </div>
@@ -82,28 +86,28 @@
     <section id="about" class="section-padding">
       <div class="container flex items-center justify-betweeen gap-8 flex-col lg:flex-row">
         <div class="w-full">
-          <h1 class="special-heading">
+          <h1 class="wow fadeInLeft special-heading">
             Our's Company<br>Statistics
           </h1>
-          <p class="text-sm leading-[2] text-zinc-500">
+          <p class="wow fadeInLeft text-sm leading-[2] text-zinc-500" data-wow-delay=".1s">
             In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence.<br>
             We need to get all stakeholders up to speed and in the right place hard stop, or technologically savvy or pre launch. Pro-sumer software commitment to the cause offline this discussion and wiggle room blue sky. Beef up teams were able to drive adoption and awareness. Screw the pooch killing it.
           </p>
         </div>
         <div class="grid grid-cols-2 gap-3 w-full items-center justify-center">
-          <div class="bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full">
+          <div class="wow fadeInRight bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full" data-wow-delay="0s">
             <h2 class="text-secondary-200 font-semibold text-4xl">748</h2>
             <h3 class=" text-xs font-semibold text-primary">Apartments</h3>
           </div>
-          <div class="bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full">
+          <div class="wow fadeInRight bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full" data-wow-delay=".1s">
             <h2 class="text-secondary-200 font-semibold text-4xl">3854</h2>
             <h3 class=" text-xs font-semibold text-primary">Clients</h3>
           </div>
-          <div class="bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full">
+          <div class="wow fadeInRight bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full" data-wow-delay=".2s">
             <h2 class="text-secondary-200 font-semibold text-4xl">24</h2>
             <h3 class=" text-xs font-semibold text-primary">Employees</h3>
           </div>
-          <div class="bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full">
+          <div class="wow fadeInRight bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full" data-wow-delay=".3s">
             <h2 class="text-secondary-200 font-semibold text-4xl">14</h2>
             <h3 class=" text-xs font-semibold text-primary">Awards</h3>
           </div>
@@ -115,12 +119,12 @@
     <!-- Apartments Section -->
     <section id="apartments" class="section-padding">
       <div class="container">
-        <h1 class="special-heading">
+        <h1 class="wow fadeInLeft special-heading">
           More Than 500+<br>Apartments For Rent
         </h1>
         <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3 mb-8">
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/appartment.png" class="w-full">
+          <div class="flex wow fadeInRight flex-col rounded overflow-hidden shadow-sm" data-wow-delay="0s">
+            <img src="./imgs/apartment-1.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Random Street, Apt B453, New York</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -134,8 +138,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/appartment.png" class="w-full">
+          <div class="flex wow fadeInRight flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".2s">
+            <img src="./imgs/apartment-2.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Random Street, Apt B453, New York</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -149,8 +153,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/appartment.png" class="w-full">
+          <div class="flex wow fadeInRight flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".3s">
+            <img src="./imgs/apartment-3.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Random Street, Apt B453, New York</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -164,8 +168,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/appartment.png" class="w-full">
+          <div class="flex wow fadeInRight flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".4s">
+            <img src="./imgs/apartment-4.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Random Street, Apt B453, New York</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -179,8 +183,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/appartment.png" class="w-full">
+          <div class="flex wow fadeInRight flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".5s">
+            <img src="./imgs/apartment-5.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Random Street, Apt B453, New York</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -194,8 +198,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/appartment.png" class="w-full">
+          <div class="flex wow fadeInRight flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".6s">
+            <img src="./imgs/apartment-6.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Random Street, Apt B453, New York</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -210,7 +214,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col gap-7 sm:flex-row max-w-3xl">
+        <div class="wow fadeInLeft flex flex-col gap-7 sm:flex-row max-w-3xl">
           <div class="flex justify-center items-stretch shadow-xl overflow-hidden rounded lg:max-w-lg relative flex-grow">
             <input type="text" placeholder="Search Location" class="p-3 sm:p-6 bg-white outline-none border-none flex-grow sm:pl-12">
             <i class="fa-solid fa-magnifying-glass hidden sm:block absolute top-[50%] left-4 text-slate-400 -translate-y-1/2"></i>
@@ -225,7 +229,7 @@
     <!-- How-it-works Section -->
     <section id="how-it-works" class="section-padding">
       <div class="container">
-        <div class="special-heading">
+        <div class="wow fadeInLeft special-heading">
           <h1 class="mb-5">How it works?</h1>
           <p class="text-sm leading-[2] text-zinc-500 font-normal max-w-lg">
             In this space market-facing, yet UI work flows , or bake it in.
@@ -234,19 +238,19 @@
           </p>
         </div>
         <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
-          <div class="bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden">
+          <div class="wow fadeInRight bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden" data-wow-delay="0s">
             <span class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 text-[200px] font-semibold text-primary">01</span>
             <h3 class="relative mb-5 font-semibold text-primary"><span class="absolute top-1/2 -left-7 -translate-y-1/2">01</span> Find You Location</h3>
             <p class="leading-[2.3] text-zinc-600 mb-5">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day.</p>
             <a href="#" class="font-semibold text-primary underline">Find Location</a>
           </div>
-          <div class="bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden">
+          <div class="wow fadeInRight bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden" data-wow-delay=".1s">
             <span class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 text-[200px] font-semibold text-primary">02</span>
             <h3 class="relative mb-5 font-semibold text-primary"><span class="absolute top-1/2 -left-7 -translate-y-1/2">02</span> Find Apartment</h3>
             <p class="leading-[2.3] text-zinc-600 mb-5">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day.</p>
             <a href="#" class="font-semibold text-primary underline">Find Apartment</a>
           </div>
-          <div class="bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden">
+          <div class="wow fadeInRight bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden" data-wow-delay=".2s">
             <span class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 text-[200px] font-semibold text-primary">03</span>
             <h3 class="relative mb-5 font-semibold text-primary"><span class="absolute top-1/2 -left-7 -translate-y-1/2">03</span> Make Contact</h3>
             <p class="leading-[2.3] text-zinc-600 mb-5">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day.</p>
@@ -260,7 +264,7 @@
     <!-- Agents Section -->
     <section id="agents" class="section-padding">
       <div class="container">
-        <div class="special-heading">
+        <div class="wow fadeInLeft special-heading">
           <h1 class="mb-5">Meet Our Agents</h1>
           <p class="text-sm leading-[2] text-zinc-500 font-normal max-w-lg">
             In this space market-facing, yet UI work flows , or bake it in.
@@ -269,8 +273,8 @@
           </p>
         </div>
         <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3 mb-8">
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/agent.png" class="w-full">
+          <div class="wow fadeInRight flex flex-col rounded overflow-hidden shadow-sm" data-wow-delay="0s">
+            <img src="./imgs/agent-1.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Agent</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -285,8 +289,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/agent.png" class="w-full">
+          <div class="wow fadeInRight flex flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".1s">
+            <img src="./imgs/agent-2.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Agent</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -301,8 +305,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col rounded overflow-hidden shadow-sm">
-            <img src="./imgs/agent.png" class="w-full">
+          <div class="wow fadeInRight flex flex-col rounded overflow-hidden shadow-sm" data-wow-delay=".2s">
+            <img src="./imgs/agent-3.jpg" class="w-full">
             <div class="bg-white p-3">
               <h3 class="text-sm font-semibold text-primary mb-3">Agent</h3>
               <div class="flex justify-between itmes-center gap-2">
@@ -324,7 +328,7 @@
     <!-- Services Section -->
     <section id="services" class="section-padding">
       <div class="container">
-        <div class="special-heading">
+        <div class="wow fadeInLeft special-heading">
           <h1 class="mb-5">Services</h1>
           <p class="text-sm leading-[2] text-zinc-500 font-normal max-w-lg">
             In this space market-facing, yet UI work flows , or bake it in.
@@ -332,23 +336,23 @@
           </p>
         </div>
         <div class="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-7">
-          <div class="overflow-hidden flex-grow w-full rounded">
-            <img src="./imgs/services.png" class="w-full">
+          <div class="wow fadeInLeft overflow-hidden flex-grow w-full rounded">
+            <img src="./imgs/services.jpg" class="w-full">
           </div>
           <div class="flex flex-col gap-8 w-full flex-grow text-center lg:text-start">
-            <div>
+            <div class="wow fadeInRight" data-wow-delay="0s">
               <h2 class="text-2xl font-semibold text-primary mb-5">Renting</h2>
               <p class="text-sm leading-[2] text-zinc-500">
                 In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence
               </p>
             </div>
-            <div>
+            <div class="wow fadeInRight" data-wow-delay=".1s">
               <h2 class="text-2xl font-semibold text-primary mb-5">Selling</h2>
               <p class="text-sm leading-[2] text-zinc-500">
                 In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence
               </p>
             </div>
-            <div>
+            <div class="wow fadeInRight" data-wow-delay=".2s">
               <h2 class="text-2xl font-semibold text-primary mb-5">Building</h2>
               <p class="text-sm leading-[2] text-zinc-500">
                 In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence
@@ -363,9 +367,9 @@
     <!-- Add Section -->
     <section id="add" class="section-padding">
       <div class="container flex flex-col gap-12">
-        <div class="flex flex-col text-center md:flex-row gap-7 items-center justify-between md:text-start md:even:flex-row-reverse md:even:text-end">
+        <div class="wow fadeInRight flex flex-col text-center md:flex-row gap-7 items-center justify-between md:text-start md:even:flex-row-reverse md:even:text-end" data-wow-delay="0s">
           <div class="flex-grow w-full relative overflow-hidden rounded">
-            <img src="./imgs/add.png" class="w-full">
+            <img src="./imgs/add-1.jpg" class="w-full">
             <div class="bg-secondary-200 text-primary font-semibold p-2 flex flex-col text-center justify-between gap-2 align-center sm:flex-row lg:absolute lg:bottom-0 lg:right-0 lg:px-8 lg:py-4 lg:gap-8">
               <p class="flex gap-3 mx-auto items-center"><i class="fa-solid fa-location-dot text-white text-xl"></i>Melbourne, Australia</p>
             </div>
@@ -377,9 +381,9 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col text-center md:flex-row gap-7 items-center justify-between md:text-start md:even:flex-row-reverse md:even:text-end">
+        <div class="wow fadeInRight flex flex-col text-center md:flex-row gap-7 items-center justify-between md:text-start md:even:flex-row-reverse md:even:text-end" data-wow-delay=".1s">
           <div class="flex-grow w-full relative overflow-hidden rounded">
-            <img src="./imgs/add.png" class="w-full">
+            <img src="./imgs/add-2.jpg" class="w-full">
             <div class="bg-secondary-200 text-primary font-semibold p-2 flex flex-col text-center justify-between gap-2 align-center sm:flex-row lg:absolute lg:bottom-0 lg:right-0 lg:px-8 lg:py-4 lg:gap-8">
               <p class="flex gap-3 mx-auto items-center"><i class="fa-solid fa-location-dot text-white text-xl"></i>Melbourne, Australia</p>
             </div>
@@ -391,9 +395,9 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col text-center md:flex-row gap-7 items-center justify-between md:text-start md:even:flex-row-reverse md:even:text-end">
+        <div class="wow fadeInRight flex flex-col text-center md:flex-row gap-7 items-center justify-between md:text-start md:even:flex-row-reverse md:even:text-end" data-wow-delay=".2s">
           <div class="flex-grow w-full rounded overflow-hidden">
-            <img src="./imgs/add.png" class="w-full">
+            <img src="./imgs/add-3.jpg" class="w-full">
           </div>
           <div class="flex-grow w-full">
             <h2 class="text-2xl font-semibold text-primary mb-5">Super Awesome Add</h2>
@@ -411,21 +415,21 @@
     <footer class="bg-primary pt-16">
       <div class="container text-white">
         <div class="flex justify-between items-start md:items-center flex-col gap-7 md:flex-row border-b border-slate-400 pb-10 mb-10">
-          <h1 class="text-3xl leading-[1.3] font-semibold">Luxestate<br>Explore Real Estate</h1>
-          <div class="flex justify-center items-stretch shadow-xl overflow-hidden rounded w-full md:max-w-lg relative flex-grow">
+          <h1 class="wow fadeInLeft text-3xl leading-[1.3] font-semibold">Luxestate<br>Explore Real Estate</h1>
+          <div class="wow fadeInRight flex justify-center items-stretch shadow-xl overflow-hidden rounded w-full md:max-w-lg relative flex-grow">
             <input type="text" placeholder="Subscribe To our Newsletter" class="text-primary p-3 sm:p-6 bg-white outline-none border-none flex-grow">
             <button type="submit" class="bg-white transition-all hover:bg-secondary-100 text-2xl text-primary font-semibold px-3 sm:px-6"><i class="fa-solid fa-arrow-right-long"></i></button>
           </div>
         </div>
         <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pb-10 border-b border-slate-400">
-          <div>
+          <div class="wow fadeInLeft" data-wow-delay="0s">
             <h1 class="text-lg mb-5 font-semibold text-slate-300 text-center sm:text-start">LUXESTATE</h1>
             <ul class="flex flex-col gap-2 text-center pb-7 border-b border-slate-400 sm:p-0 sm:border-none sm:text-start">
               <li><a href="#" class="text-sm">Agents</a></li>
               <li><a href="#" class="text-sm">Hunters</a></li>
             </ul>
           </div>
-          <div>
+          <div class="wow fadeInLeft" data-wow-delay=".1s">
             <h1 class="text-lg mb-5 font-semibold text-slate-300 text-center sm:text-start">COMPANY</h1>
             <ul class="flex flex-col gap-2 text-center pb-7 border-b border-slate-400 sm:p-0 sm:border-none sm:text-start">
               <li><a href="#" class="text-sm">About</a></li>
@@ -434,14 +438,14 @@
               <li><a href="#" class="text-sm">Social</a></li>
             </ul>
           </div>
-          <div>
+          <div class="wow fadeInLeft" data-wow-delay=".2s">
             <h1 class="text-lg mb-5 font-semibold text-slate-300 text-center sm:text-start">PRODUCT</h1>
             <ul class="flex flex-col gap-2 text-center pb-7 border-b border-slate-400 sm:p-0 sm:border-none sm:text-start">
               <li><a href="#" class="text-sm">Apartments</a></li>
               <li><a href="#" class="text-sm">How it works</a></li>
             </ul>
           </div>
-          <div>
+          <div class="wow fadeInLeft" data-wow-delay=".3s">
             <h1 class="text-lg mb-5 font-semibold text-slate-300 text-center sm:text-start">SERVICES</h1>
             <ul class="flex flex-col gap-2 text-center sm:text-start">
               <li><a href="#" class="text-sm">Renting</a></li>
@@ -450,13 +454,14 @@
             </ul>
           </div>
         </div>
-        <div class="text-center text-lg font-medium py-10">
+        <div class="wow fadeInDown text-center text-lg font-medium py-10">
           © 2019 - luxestate, All Rights Reserved.
         </div>
       </div>
     </footer>
     <!-- End Footer -->
 
+    <script src="./js/wow.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
