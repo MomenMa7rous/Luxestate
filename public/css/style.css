@@ -585,6 +585,10 @@ video {
   left: -1.75rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-11 {
   bottom: 2.75rem;
 }
@@ -679,8 +683,16 @@ video {
   display: none;
 }
 
+.h-\[2px\] {
+  height: 2px;
+}
+
 .min-h-\[calc\(100vh-72px\)\] {
   min-height: calc(100vh - 72px);
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .w-fit {
@@ -795,6 +807,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded {

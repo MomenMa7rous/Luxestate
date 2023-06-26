@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,7 @@
   <body class="font-main">
     <!-- Header -->
     <header id="header" class="sticky top-0 left-0 z-50 bg-white">
+      <div id="header-border" class="transition-all absolute bottom-0 left-0 w-0 h-[2px] bg-primary"></div>
       <div class="container flex justify-between items-center gap-4 py-5">
         <h1 class="text-2xl text-primary font-semibold"><a href="#">luxestate</a></h1>
         <button id="mobile-nav-btn" class="text-primary text-2xl lg:hidden">
@@ -23,30 +24,30 @@
         <nav id="mobile-nav" class="lg:hidden pt-2 absolute top-[72px] left-0 min-h-[calc(100vh-72px)] w-full bg-white border-t-2 overflow-auto transition-all -translate-x-full">
           <ul id="mobile-nav-ul" class="text-center mb-7">
             <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Home</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">About</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Appartments</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">How it works</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Agents</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200 p-3 block text-xl">Contact us</a></li>
+            <li><a href="#about" class="text-primary hover:text-secondary-200 p-3 block text-xl">About</a></li>
+            <li><a href="#apartments" class="text-primary hover:text-secondary-200 p-3 block text-xl">Apartments</a></li>
+            <li><a href="#how-it-works" class="text-primary hover:text-secondary-200 p-3 block text-xl">How it works</a></li>
+            <li><a href="#agents" class="text-primary hover:text-secondary-200 p-3 block text-xl">Agents</a></li>
+            <li><a href="#services" class="text-primary hover:text-secondary-200 p-3 block text-xl">Contact us</a></li>
           </ul>
           <div id="mobile-quick-actions" class="flex flex-col text-center">
-            <a href="#" class="text-primary hover:text-secondary text-xl block p-3">Join Us</a>
-            <a href="#" class="text-primary bg-secondary-200 border-2 rounded border-secondary-200 transition-all py-2 px-5 mx-5 hover:bg-transparent font-medium">Get Started</a>
+            <a href="#how-it-works" class="text-primary hover:text-secondary text-xl block p-3">Join Us</a>
+            <a href="#about" class="text-primary bg-secondary-200 border-2 rounded border-secondary-200 transition-all py-2 px-5 mx-5 hover:bg-transparent font-medium">Get Started</a>
           </div>
         </nav>
         <nav class="hidden lg:flex">
           <ul class="flex gap-3 items-center text-sm">
             <li><a href="#" class="text-primary hover:text-secondary-200">Home</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200">About</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200">Appartments</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200">How it works</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200">Agents</a></li>
-            <li><a href="#" class="text-primary hover:text-secondary-200">Services</a></li>
+            <li><a href="#about" class="text-primary hover:text-secondary-200">About</a></li>
+            <li><a href="#apartments" class="text-primary hover:text-secondary-200">Apartments</a></li>
+            <li><a href="#how-it-works" class="text-primary hover:text-secondary-200">How it works</a></li>
+            <li><a href="#agents" class="text-primary hover:text-secondary-200">Agents</a></li>
+            <li><a href="#services" class="text-primary hover:text-secondary-200">Services</a></li>
           </ul>
         </nav>
         <div id="quick-actions" class="hidden lg:flex gap-3 items-center text-sm">
-          <a href="#" class="text-primary hover:text-secondary-200">Join Us</a>
-          <a href="#" class="text-primary bg-secondary-200 border-2 rounded border-secondary-200 transition-all py-2 px-5 hover:bg-transparent font-medium">Get Started</a>
+          <a href="#how-it-works" class="text-primary hover:text-secondary-200">Join Us</a>
+          <a href="#about" class="text-primary bg-secondary-200 border-2 rounded border-secondary-200 transition-all py-2 px-5 hover:bg-transparent font-medium">Get Started</a>
         </div>
       </div>
     </header>
@@ -92,7 +93,7 @@
         <div class="grid grid-cols-2 gap-3 w-full items-center justify-center">
           <div class="bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full">
             <h2 class="text-secondary-200 font-semibold text-4xl">748</h2>
-            <h3 class=" text-xs font-semibold text-primary">Appartments</h3>
+            <h3 class=" text-xs font-semibold text-primary">Apartments</h3>
           </div>
           <div class="bg-slate-100 p-10 rounded flex justify-center items-center flex-col gap-3 w-full">
             <h2 class="text-secondary-200 font-semibold text-4xl">3854</h2>
@@ -111,11 +112,11 @@
     </section>
     <!-- End About Section -->
 
-    <!-- Appartments Section -->
-    <section id="appartments" class="section-padding">
+    <!-- Apartments Section -->
+    <section id="apartments" class="section-padding">
       <div class="container">
         <h1 class="special-heading">
-          More Than 500+<br>Appartments For Rent
+          More Than 500+<br>Apartments For Rent
         </h1>
         <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3 mb-8">
           <div class="flex flex-col rounded overflow-hidden shadow-sm">
@@ -215,11 +216,11 @@
             <i class="fa-solid fa-magnifying-glass hidden sm:block absolute top-[50%] left-4 text-slate-400 -translate-y-1/2"></i>
             <button type="submit" class="bg-secondary-200 transition-all hover:bg-secondary-100 text-primary font-semibold px-3 sm:px-6">Search</button>
           </div>
-          <a href="#" class="bg-white shadow-lg text-sm font-semibold text-primary transition-all hover:bg-secondary-100 p-3 md:p-5 flex items-center justify-center rounded">View All Appartments</a>
+          <a href="#" class="bg-white shadow-lg text-sm font-semibold text-primary transition-all hover:bg-secondary-100 p-3 md:p-5 flex items-center justify-center rounded">View All Apartments</a>
         </div>
       </div>
     </section>
-    <!-- End Appartments Section -->
+    <!-- End Apartments Section -->
 
     <!-- How-it-works Section -->
     <section id="how-it-works" class="section-padding">
@@ -241,9 +242,9 @@
           </div>
           <div class="bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden">
             <span class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 text-[200px] font-semibold text-primary">02</span>
-            <h3 class="relative mb-5 font-semibold text-primary"><span class="absolute top-1/2 -left-7 -translate-y-1/2">02</span> Find Appartment</h3>
+            <h3 class="relative mb-5 font-semibold text-primary"><span class="absolute top-1/2 -left-7 -translate-y-1/2">02</span> Find Apartment</h3>
             <p class="leading-[2.3] text-zinc-600 mb-5">In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day.</p>
-            <a href="#" class="font-semibold text-primary underline">Find Appartment</a>
+            <a href="#" class="font-semibold text-primary underline">Find Apartment</a>
           </div>
           <div class="bg-white shadow-lg p-8 py-14 pl-14 pt-32 rounded transition-all hover:bg-secondary-200 relative overflow-hidden">
             <span class="absolute top-0 left-0 -translate-x-1/3 -translate-y-1/2 text-[200px] font-semibold text-primary">03</span>
