@@ -1,4 +1,4 @@
-# Special Design
+# Luxestate
 * [Live Preview](https://momenma7rous.github.io/Luxestate/public/)
 * Used Libraries
   * [WOW.js](https://wowjs.uk/)
