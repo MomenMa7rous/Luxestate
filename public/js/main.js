@@ -41,3 +41,32 @@ function controlHeaderBorder() {
 
 // Initialize WOW.js
 new WOW().init()
+
+// Check Mode
+
+if (window.localStorage.getItem("darkMode")) {
+  document.getElementsByTagName('html')[0].classList.add("dark")
+} else {
+  document.getElementsByTagName('html')[0].classList.remove("dark")
+}
+
+// Dark Mode Toggle
+const modeBtn = document.getElementById('mode')
+const mobileModeBtn = document.getElementById("mobile-mode")
+
+modeBtn.addEventListener("click", () => {
+  handleMode()
+})
+
+mobileModeBtn.addEventListener("click", () => {
+  handleMode()
+})
+
+function handleMode() {
+  document.getElementsByTagName('html')[0].classList.toggle("dark")
+  if (document.getElementsByTagName('html')[0].classList.contains("dark")) {
+    window.localStorage.setItem("darkMode", true)
+  } else {
+    window.localStorage.removeItem("darkMode")
+  }
+}
